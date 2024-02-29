@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from '../../components/Banner';
-import ChoosingUs from "../../components/ChoosingUs";
+import Expertise from '../../components/Expertise'
+//import Expertise from "../../components/Expertise";
 import ServicesHome from "../../components/ServicesHome";
 import CaseStudy from "../../components/CaseStudy";
 import Real from "../../components/Real";
@@ -22,9 +23,9 @@ const Home = () => {
         <AboutUsHome />
       </section>
 
-      {/* Why Choosing Us Section  */}
+      {/* Our Expretise Section  */}
       <section>
-        <ChoosingUs />
+        <Expertise />
       </section>
       
       {/* Services Section  */}

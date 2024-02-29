@@ -12,10 +12,10 @@ const Real = () =>{
                 <div className="col-md-6">
                     <div className={styles.text}>
                         <p data-aos='slide-right' data-aos-offset="150"  className={styles.heading}>Real</p>
-                        <p data-aos='slide-left' data-aos-offset="150" className={styles.subHeading}>Improves Customer Experiences</p>
-                        <p data-aos='zoom-in' data-aos-offset="150" className={styles.content}>Responsive web design supply chain crowdfunding agile development analytics technology ownership startup. Network effects social proof user experience prototype buzz product management deployment metrics sales infographic equity holy grail crowdfunding release. </p>
+                        <p data-aos='slide-left' data-aos-offset="150" className={styles.subHeading}>Software Dev Feedback channels</p>
+                        <p data-aos='zoom-in' data-aos-offset="150" className={styles.content}>Look & Feel </p>
                         <div data-aos='zoom-in' style={{textAlign:'left'}}>
-                            <button className={`btn custom_btn ${styles.btn}`}>LET&apos;S TALK</button>
+                            <button className={`btn custom_btn ${styles.btn}`}>Reach us out</button>
                         </div>
                     </div>
                 </div>

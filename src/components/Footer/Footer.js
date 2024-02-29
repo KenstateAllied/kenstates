@@ -11,10 +11,10 @@ const Footer = () =>{
                 <div className="container" >
                     <div className="row">
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
-                            <p className={styles.logo}>Miritus</p>
-                            <p className={styles.text}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
-                            <p className={styles.text}>Lorem ipsum dolor sit amet</p>
-                            <p className={styles.text}>Lorem ipsum dolor sit amet</p>
+                            <p className={styles.logo}>Kenstate</p>
+                            <p className={styles.text}>Digital at your service</p>
+                            <p className={styles.text}>We develop softwares for many domains</p>
+                            <p className={styles.text}>Public & Private</p>
                             <div className={styles.social_logo}>
                                 <img src={fb} alt="fb" className={styles.img}/>
                                 <img src={linkdin} alt="in" className={styles.img}/>
@@ -24,21 +24,21 @@ const Footer = () =>{
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
                             <p className={styles.head}>Services</p>
-                            <p className={styles.text}>4517 Washington Ave. Manchester, Kentucky 39495</p>
-                            <p className={styles.text}>deanna.curtis@example.com</p>
-                            <p className={styles.text}>(671) 555-0110</p>
+                            <p className={styles.text}>Eldoret & Nairobi Branches</p>
+                            <p className={styles.text}>kenstatellc@gmail.com</p>
+                            <p className={styles.text}>(+254) 724 052 417</p>
 
                         </div>
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
                             <p className={styles.head}>Head Office</p>
-                            <p className={styles.text}>4517 Washington Ave. Manchester, Kentucky 39495</p>
-                            <p className={styles.text}>deanna.curtis@example.com</p>
-                            <p className={styles.text}>(671) 555-0110</p>
+                            <p className={styles.text}>Westlands Nairobi </p>
+                            <p className={styles.text}>kenstatellc@gmail.com</p>
+                            <p className={styles.text}>(+254) 724 052 417</p>
                         </div>
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
-                            <p className={styles.head}>Opening Hour</p>
+                            <p className={styles.head}>Opening Hours</p>
                             <p className={styles.text}>Mon - Sat : 8:00 - 17:00</p>
                             <p className={styles.text}>Sun : Closed</p>
 
@@ -50,7 +50,7 @@ const Footer = () =>{
 
 
             <div style={{backgroundColor: '#2b2b2b', borderTop: 'solid 1px #707070'}}>
-                    <p className={styles.bottom}>Copyright © 2020. All right reserved</p>
+                    <p className={styles.bottom}>Copyright © 2024. All rights reserved</p>
             </div>
         </>
     )

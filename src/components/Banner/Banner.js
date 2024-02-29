@@ -7,8 +7,8 @@ const Banner = () => {
     <>
         <div className={styles.imgbox}>
             <div className={`${styles.center} overflow-hidden`}>
-                <p data-aos='fade-down' className={styles.text}>We are the solutions provider for all home</p>
-                <button data-aos='fade-up' className={`btn custom_btn ${styles.btn}`}>LET&apos;S TALK</button>
+                <p data-aos='fade-down' className={styles.text}>Software Development on latest platforms and frameworks</p>
+                <button data-aos='fade-up' className={`btn custom_btn ${styles.btn}`}>We will do it for you Contact us</button>
             </div>
             
         </div>
