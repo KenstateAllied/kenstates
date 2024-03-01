@@ -12,9 +12,8 @@ const Footer = () =>{
                     <div className="row">
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
                             <p className={styles.logo}>Kenstate</p>
-                            <p className={styles.text}>Test</p>
-                            <p className={styles.text}>Test</p>
-                            <p className={styles.text}>Test</p>
+                            <p className={styles.text}>Digital @ your service</p>
+                            
                             <div className={styles.social_logo}>
                                 <img src={fb} alt="fb" className={styles.img}/>
                                 <img src={linkdin} alt="in" className={styles.img}/>
@@ -30,9 +29,9 @@ const Footer = () =>{
                         </div>
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
-                            <p className={styles.head}>Opening Hour</p>
+                            <p className={styles.head}>Opening Hours</p>
                             <p className={styles.text}>Mon - Sat : 8:00 - 17:00</p>
-                            <p className={styles.text}>Sun : Closed</p>
+                            <p className={styles.text}>Sunday Closed</p>
 
                         </div>
                     </div>
@@ -42,7 +41,7 @@ const Footer = () =>{
 
 
             <div style={{backgroundColor: '#2b2b2b', borderTop: 'solid 1px #707070'}}>
-                    <p className={styles.bottom}>Copyright © 2024. Kenstate Allied. (All right reserved)</p>
+                    <p className={styles.bottom}>Copyright © 2024. Kenstate Allied. (All rights reserved)</p>
             </div>
         </>
     )
