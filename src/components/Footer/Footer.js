@@ -50,7 +50,7 @@ const Footer = () =>{
 
 
             <div style={{backgroundColor: '#2b2b2b', borderTop: 'solid 1px #707070'}}>
-                    <p className={styles.bottom}>Copyright © 2024. All rights reserved</p>
+                    <p className={styles.bottom}>Copyright © 2024. Kenstate Allied All rights reserved</p>
             </div>
         </>
     )
