@@ -18,25 +18,25 @@ const ContactUsForm = () =>{
     return(
         <>
             <div className={`container ${styles.contain} overflow-hidden`}>
-                <p data-aos='fade-up' className={`${styles.heading} mx-auto`}>We&apos;d Love to Hear From You</p>
+                <p data-aos='fade-up' className={`${styles.heading} mx-auto`}>Kindly make contact</p>
 
                 <div className="row">
                     <div className="col-md-4" data-aos='fade-right'>
                         <p className={styles.head}>Address</p>
-                        <p className={styles.content}>1201 New Zealand Metropolis 3452</p>
+                        <p className={styles.content}>Westlands Nairobi, Pioneer Eldoret</p>
                     </div>
 
                     <div className="col-md-4" data-aos='fade-up' data-aos-offset='100'>
                         <p className={styles.head}>Contact</p>
-                        <p className={styles.content}>Mobile 	: +00 123 456 78</p> 
-                        <p className={styles.content}>Phone 	: +00 123 678 90</p>
-                        <p className={styles.content}>Email: contact@gmail.com</p>
+                        <p className={styles.content}>Mobile 	: +254 724 052 417</p> 
+                        <p className={styles.content}>Phone 	: +254 724 052 417</p>
+                        <p className={styles.content}>Email: kenstatellc@gmail.com</p>
                     </div>
 
                     <div className="col-md-4" data-aos='fade-left' data-aos-offset='70'>
-                        <p className={styles.head}>Address</p>
-                        <p className={styles.content}>Monday - Friday: 09:00 - 20:00</p>
-                        <p className={styles.content}>Sunday &amp; Saturday: 10:30 - 22:00</p>
+                        <p className={styles.head}>Hours</p>
+                        <p className={styles.content}>Monday - Saturday: 08:00 - 17:00</p>
+                        <p className={styles.content}>Sunday &amp; Sunday: Closed</p>
                     </div>
                 </div>
 

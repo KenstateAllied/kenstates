@@ -19,17 +19,17 @@ const CaseStudy = () =>{
 
     return(
         <div className={`container ${styles.contain} overflow-hidden`}>
-            <p className={styles.head} data-aos='slide-right'>WHAT WE DO</p>
+            <p className={styles.head} data-aos='slide-right'>These are part of our deliverables</p>
             <div data-aos='slide-left'>
-                <p className={styles.our}>OUR CASE&nbsp;</p>
-                <p className={styles.study}>STUDIES</p>
+                <p className={styles.our}>Projects&nbsp;</p>
+                <p className={styles.study}>ProjectDetails</p>
             </div>
             <div className={`${styles.grp_btn}`} data-aos='fade'>
                 <p onClick={()=>{ setData(fakeData); activeNav(0) }} className={`${styles.filter} ${active[0] ? styles.active : null}`}>ALL</p>
-                <p onClick={()=>{ filterData('financial'); activeNav(1) }} className={`${styles.filter} ${active[1] ? styles.active : null}`}>FINANCIAL</p>
-                <p onClick={()=>{ filterData('human resources'); activeNav(2) }} className={`${styles.filter} ${active[2] ? styles.active : null}`}>HUMAN RESOURCES</p>
-                <p onClick={()=>{ filterData('start up'); activeNav(3) }} className={`${styles.filter} ${active[3] ? styles.active : null}`}>START UP</p>
-                <p onClick={()=>{ filterData('strategy'); activeNav(4) }} className={`${styles.filter} ${active[4] ? styles.active : null}`}>STRATEGY</p>
+                <p onClick={()=>{ filterData('financial'); activeNav(1) }} className={`${styles.filter} ${active[1] ? styles.active : null}`}>Financial Tech</p>
+                <p onClick={()=>{ filterData('human resources'); activeNav(2) }} className={`${styles.filter} ${active[2] ? styles.active : null}`}>Procurement & Logistics</p>
+                <p onClick={()=>{ filterData('start up'); activeNav(3) }} className={`${styles.filter} ${active[3] ? styles.active : null}`}>E-commerce</p>
+                <p onClick={()=>{ filterData('strategy'); activeNav(4) }} className={`${styles.filter} ${active[4] ? styles.active : null}`}>Health IT</p>
             </div>
 
             <div className='row mb-2'>

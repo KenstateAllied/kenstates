@@ -6,43 +6,43 @@ import img4 from '../../assets/caseStudy/4.png';
 const fakeData = [
     {
         id: 1,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
+        designation: 'CEO',
+        title: 'Fin Tech ',
         img: img1,
-        category: 'financial'
+        category: 'financials'
     },
     {
         id: 2,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
+        designation: 'CTO',
+        title: 'Health IT',
         img: img2,
-        category: 'human resources'
+        category: 'procurement'
     },
     {
         id: 3,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
+        designation: 'SEO',
+        title: 'CTS',
         img: img3,
         category: 'start up'
     },
     {
         id: 4,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
+        designation: 'CEO',
+        title: 'Head',
         img: img4,
         category: 'strategy'
     },
     {
         id: 5,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
+        designation: 'Director',
+        title: 'Dir',
         img: img1,
-        category: 'financial'
+        category: 'Insurance'
     },
     {
         id: 6,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
+        designation: 'Manager',
+        title: 'HR',
         img: img2,
         category: 'human resources'
     }
