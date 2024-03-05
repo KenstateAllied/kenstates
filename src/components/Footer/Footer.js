@@ -25,7 +25,7 @@ const Footer = () =>{
                             <p className={styles.head}>Offices</p>
                             <p className={styles.text}>Westlands Nairobi, Pioneer Eldoret</p>
                             <p className={styles.text}>kenstatellc@gmail.com</p>
-                            <p className={styles.text}>(+254) 052 417</p>
+                            <p className={styles.text}>(+254) 724 052 417</p>
                         </div>
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
