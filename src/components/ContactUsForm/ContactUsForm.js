@@ -18,7 +18,7 @@ const ContactUsForm = () =>{
     return(
         <>
             <div className={`container ${styles.contain} overflow-hidden`}>
-                <p data-aos='fade-up' className={`${styles.heading} mx-auto`}>Kindly make contact</p>
+                <p data-aos='fade-up' className={`${styles.heading} mx-auto`}>Find our contacts below</p>
 
                 <div className="row">
                     <div className="col-md-4" data-aos='fade-right'>
@@ -27,8 +27,7 @@ const ContactUsForm = () =>{
                     </div>
 
                     <div className="col-md-4" data-aos='fade-up' data-aos-offset='100'>
-                        <p className={styles.head}>Contact</p>
-                        <p className={styles.content}>Mobile 	: +254 724 052 417</p> 
+                        <p className={styles.head}>Contacts</p>
                         <p className={styles.content}>Phone 	: +254 724 052 417</p>
                         <p className={styles.content}>Email: kenstatellc@gmail.com</p>
                     </div>
@@ -36,7 +35,7 @@ const ContactUsForm = () =>{
                     <div className="col-md-4" data-aos='fade-left' data-aos-offset='70'>
                         <p className={styles.head}>Hours</p>
                         <p className={styles.content}>Monday - Saturday: 08:00 - 17:00</p>
-                        <p className={styles.content}>Sunday &amp; Sunday: Closed</p>
+                        <p className={styles.content}>Sunday Closed</p>
                     </div>
                 </div>
 
@@ -47,7 +46,7 @@ const ContactUsForm = () =>{
                         <label className={styles.label}>Name</label><br/>
                         <input name="name" value={formContent.name} onChange={handleChange} className={styles.input} type="text" />
 
-                        <label className={styles.label}>Email</label><br/>
+                        <label className={styles.label}>Your Email</label><br/>
                         <input name="email" value={formContent.email} onChange={handleChange} className={styles.input} type="email" />
 
                         <label className={styles.label}>Subject</label><br/>

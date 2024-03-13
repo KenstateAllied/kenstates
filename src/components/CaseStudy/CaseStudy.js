@@ -19,10 +19,10 @@ const CaseStudy = () =>{
 
     return(
         <div className={`container ${styles.contain} overflow-hidden`}>
-            <p className={styles.head} data-aos='slide-right'>These are part of our deliverables</p>
+            <p className={styles.head} data-aos='slide-right'>These are some of our ecosystem expertise</p>
             <div data-aos='slide-left'>
-                <p className={styles.our}>Projects&nbsp;</p>
-                <p className={styles.study}>ProjectDetails</p>
+                <p className={styles.our}>Expert Software Production Realms&nbsp;</p>
+                
             </div>
             <div className={`${styles.grp_btn}`} data-aos='fade'>
                 <p onClick={()=>{ setData(fakeData); activeNav(0) }} className={`${styles.filter} ${active[0] ? styles.active : null}`}>ALL</p>

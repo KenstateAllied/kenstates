@@ -13,10 +13,10 @@ const AboutUsHome = () =>{
                         <p data-aos="slide-right" className={styles.head}>ABOUT US</p>
                         <p data-aos="slide-left" className={styles.heading}>Our tech team is composed of great talent</p>
                         <div data-aos="zoom-in">
-                            <p className={styles.content}>Latest cutting edge technology</p>
+                            <p className={styles.content}>We use the latest cutting edge platforms & frameworks</p>
                         </div>
                         <div data-aos='zoom-in' style={{textAlign: 'left'}}>
-                            <button className={`btn custom_btn ${styles.btn}`}> Innovatin & Renovation</button>
+                            <button className={`btn custom_btn ${styles.btn}`}> New implementations & Overhauls</button>
                         </div>
                         
                     </div>
