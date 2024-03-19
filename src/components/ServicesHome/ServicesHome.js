@@ -14,7 +14,7 @@ const ServicesHome = () => {
                     data-aos="slide-left"
                     className={`mx-auto ${styles.subHeading}`}
                 >
-                    Modernize your workflow and maximize result
+                    Great Business Margins stem from streamlined workflows
                 </p>
             </div>
 

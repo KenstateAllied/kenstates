@@ -15,7 +15,7 @@ export const fakeData = [
         img: image2,
         name: 'NAIROBI SECURITIES EXCHANGE',
         profession: 'DIRECTOR',
-        message: "Integration of state of the art stock brokerage"
+        message: "Integration for state of the art stock brokerage"
     },
     {
         id: 3,
@@ -27,22 +27,22 @@ export const fakeData = [
     {
         id: 4,
         img: image1,
-        name: 'Howard Arlene',
-        profession: 'Finance Manager',
-        message: "Your company is truly upstanding and is behind its product 100%. It's the perfect solution for our business. It has really helped our business."
+        name: 'SAFARICOM KE',
+        profession: 'Product Manager',
+        message: "Your company helped us integrate Mpesa micro frontends seamlessly."
     },
     {
         id: 5,
         img: image2,
-        name: 'Miles Esther',
-        profession: 'Public Relations Specialist',
-        message: "You won't regret it. I was amazed at the quality of it. I am really satisfied with my it."
+        name: 'NAIROBI SECURITIES EXCHANGE',
+        profession: 'DIRECTOR',
+        message: "Integration for state of the art stock brokerage"
     },
     {
         id: 6,
         img: image3,
-        name: 'Pena Norma',
-        profession: 'Public Relations Specialist',
-        message: "It fits our needs perfectly. Man, this thing is getting better and better as I learn more about it. You've saved our business!"
+        name: 'NAIROBI CITY COUNTY',
+        profession: 'SOFTWARE DEVELOPMENT',
+        message: "Developed & Deployed mobile ticketing payment application  "
     },
 ]

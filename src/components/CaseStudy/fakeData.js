@@ -6,45 +6,39 @@ import img4 from '../../assets/caseStudy/4.png';
 const fakeData = [
     {
         id: 1,
-        designation: 'CEO',
-        title: 'Fin Tech ',
+        title: 'Financial Tech ',
         img: img1,
-        category: 'financials'
+        category: 'FINANCIALS'
     },
     {
         id: 2,
-        designation: 'CTO',
         title: 'Health IT',
         img: img2,
-        category: 'procurement'
+        category: 'Health Tech'
     },
     {
         id: 3,
-        designation: 'SEO',
-        title: 'CTS',
+        designation: 'Telecoms',
         img: img3,
-        category: 'start up'
+        category: 'Data & Audio'
     },
     {
         id: 4,
-        designation: 'CEO',
-        title: 'Head',
+        designation: 'Gaming & Betting',
         img: img4,
-        category: 'strategy'
+        category: 'Gaming & Betting'
     },
     {
         id: 5,
-        designation: 'Director',
-        title: 'Dir',
+        designation: 'Govt Services',
         img: img1,
-        category: 'Insurance'
+        category: 'E-Govt'
     },
     {
         id: 6,
-        designation: 'Manager',
-        title: 'HR',
+        designation: 'Marketing & Branding',
         img: img2,
-        category: 'human resources'
+        category: 'Marketing & Branding'
     }
 ]
 export default fakeData;

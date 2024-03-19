@@ -28,10 +28,10 @@ function Testimonial() {
     return (
         <div className={`${styles.container} overflow-hidden`}>
             <p data-aos="slide-right" className={styles.head}>
-                Our Testimonial
+                PORTFOLIO
             </p>
             <p data-aos="slide-left" className={styles.subHead}>
-                Our trusted client review
+                Our Client Reviews
             </p>
 
             <Carousel

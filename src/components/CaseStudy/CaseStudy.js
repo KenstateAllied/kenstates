@@ -19,13 +19,13 @@ const CaseStudy = () =>{
 
     return(
         <div className={`container ${styles.contain} overflow-hidden`}>
-            <p className={styles.head} data-aos='slide-right'>These are some of our ecosystem expertise</p>
+            <p className={styles.head} data-aos='slide-right'>These are some of our industry expertise</p>
             <div data-aos='slide-left'>
-                <p className={styles.our}>Expert Software Production Realms&nbsp;</p>
+                <p className={styles.our}>Software Development Niche  &nbsp;</p>
                 
             </div>
             <div className={`${styles.grp_btn}`} data-aos='fade'>
-                <p onClick={()=>{ setData(fakeData); activeNav(0) }} className={`${styles.filter} ${active[0] ? styles.active : null}`}>ALL</p>
+                <p onClick={()=>{ setData(fakeData); activeNav(0) }} className={`${styles.filter} ${active[0] ? styles.active : null}`}>Telecoms</p>
                 <p onClick={()=>{ filterData('financial'); activeNav(1) }} className={`${styles.filter} ${active[1] ? styles.active : null}`}>Financial Tech</p>
                 <p onClick={()=>{ filterData('human resources'); activeNav(2) }} className={`${styles.filter} ${active[2] ? styles.active : null}`}>Procurement & Logistics</p>
                 <p onClick={()=>{ filterData('start up'); activeNav(3) }} className={`${styles.filter} ${active[3] ? styles.active : null}`}>E-commerce</p>
